@@ -21,10 +21,18 @@ const IndexPage = () => (
           marginTop: `10px`,
         }}
       >
-        <GithubIcon />
-        <LinkedinIcon />
-        <InstaIcon />
-        <TwitterIcon />
+        <a href="https://github.com/JeehyaeDance">
+          <GithubIcon />
+        </a>
+        <a href="https://www.linkedin.com/in/jeehyaeDance/">
+          <LinkedinIcon />
+        </a>
+        <a href="https://www.instagram.com/jinajelly1004/">
+          <InstaIcon />
+        </a>
+        <a href="https://twitter.com/jinajeehye">
+          <TwitterIcon />
+        </a>
       </div>
     </div>
 
