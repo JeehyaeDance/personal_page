@@ -29,13 +29,13 @@ const Header = ({ siteTitle }) => (
         alignItems: `flex-end`,
         justifyContent: `flex-end`,
         width: `calc(100% - 400px)`,
+        padding: `10px 0`,
       }}
     >
       <NavBtn btnName="About" />
-      <span>About</span>
-      <span>Resume</span>
-      <span>Work</span>
-      <span>Blog</span>
+      <NavBtn btnName="Resume" />
+      <NavBtn btnName="Work" />
+      <NavBtn btnName="Blog" />
     </div>
   </header>
 )
