@@ -1,5 +1,4 @@
 import React from "react"
-import { Link } from "gatsby"
 
 import Layout from "../components/layout"
 import ProfileImg from "../components/profileImg"
@@ -52,7 +51,10 @@ const IndexPage = () => (
         }}
       >
         <h2>
-          안녕하세요 <span>👋🏼</span>
+          안녕하세요{" "}
+          <span role="img" aria-label="waving">
+            👋🏼
+          </span>
         </h2>
         <p>
           My name is Jeehyae Dance. I am a full-stack software engineer who
