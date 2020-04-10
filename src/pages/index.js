@@ -2,7 +2,7 @@ import React from "react"
 import { Link } from "gatsby"
 
 import Layout from "../components/layout"
-import Image from "../components/image"
+import ProfileImg from "../components/profileImg"
 import SEO from "../components/seo"
 import GithubIcon from "../components/icons/Github"
 import LinkedinIcon from "../components/icons/LinkedIn"
@@ -15,13 +15,13 @@ const IndexPage = () => (
     <div
       style={{
         display: `flex`,
-        margin: `1.45rem 100px 1.45rem 0`,
+        margin: `1.45rem 100px`,
         justifyContent: `space-between`,
         alignItems: `center`,
       }}
     >
       <div style={{ width: `200px` }}>
-        <Image />
+        <ProfileImg />
         <div
           style={{
             display: `flex`,
