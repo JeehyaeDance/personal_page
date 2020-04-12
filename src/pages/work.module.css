@@ -1,0 +1,17 @@
+.work-page {
+  margin: 1.45rem 50px;
+}
+
+.demo {
+  max-width: 500px;
+}
+
+.work {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.work-spec {
+  width: 500px;
+}
