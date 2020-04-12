@@ -5,17 +5,18 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import ResumeImg from "../components/resumeImg"
 import Pdf from "../documents/Jeehyae-resume.pdf"
+import styles from "./resume.module.css"
 
 const Resume = () => (
   <Layout>
     <SEO title="Resume" />
-    <div style={{ margin: `1.45rem 100px` }}>
+    <div className={styles.resumePage}>
       <h4>
         Click here to download pdf file{" "}
         <span role="img" aria-label="pointing">
           👉🏻
         </span>{" "}
-        <a href={Pdf} style={{ textDecoration: `none`, color: `#7EC1F2` }}>
+        <a href={Pdf} className={styles.resumeLink}>
           RESUME
         </a>
       </h4>

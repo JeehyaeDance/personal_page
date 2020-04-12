@@ -1,0 +1,12 @@
+.resume-page {
+  margin: 1.45rem 100px;
+}
+
+.resume-link {
+  text-decoration: none;
+  color: #7ec1f2;
+}
+
+.resume-link:hover {
+  color: #0b90f0;
+}
