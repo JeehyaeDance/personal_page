@@ -1,0 +1,11 @@
+.navbar {
+  text-decoration: none;
+  color: #7ec1f2;
+  padding: 0 10px;
+  margin: 0 10px;
+  font: 24px bold Muli;
+}
+
+.navbar:hover {
+  color: #0b90f0;
+}

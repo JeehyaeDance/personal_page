@@ -9,9 +9,16 @@ import Pdf from "../documents/Jeehyae-resume.pdf"
 const Resume = () => (
   <Layout>
     <SEO title="Resume" />
-    <h1>Hi from the resume page</h1>
-    <a href={Pdf}>Resume</a>
     <div style={{ margin: `1.45rem 100px` }}>
+      <h4>
+        Click here to download pdf file{" "}
+        <span role="img" aria-label="pointing">
+          👉🏻
+        </span>{" "}
+        <a href={Pdf} style={{ textDecoration: `none`, color: `#7EC1F2` }}>
+          RESUME
+        </a>
+      </h4>
       <ResumeImg />
     </div>
     <Link to="/">Go back to the homepage</Link>
