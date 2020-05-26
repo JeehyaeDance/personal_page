@@ -16,7 +16,18 @@ const Work = () => (
           alt="climbing day demo"
         />
         <div className={styles.workSpec}>
-          <h3>Climbing Day</h3>
+          <h3 className={styles.workTitle}>Climbing Day</h3>
+          <div>
+            <a
+              className={styles.link}
+              href="https://github.com/JeehyaeDance/rock-climbing-journal"
+            >
+              Github
+            </a>
+            <a className={styles.link} href="https://climbingday.com">
+              climbingday.com
+            </a>
+          </div>
           <p>
             Climbing Day is a web application. It is a rock climbing journal
             that allows users to log their rock climbing activity and track the
