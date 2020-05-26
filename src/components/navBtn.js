@@ -7,7 +7,7 @@ const navBtn = props => (
     <Link
       to={props.btnName === "About" ? "/" : `/${props.btnName.toLowerCase()}/`}
       className={styles.navbar}
-      activeStyle={{ borderBottom: `2px solid #0B90F0` }}
+      activeStyle={{ borderBottom: `2px solid #ffaaa5` }}
     >
       {props.btnName}
     </Link>

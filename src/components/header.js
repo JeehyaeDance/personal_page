@@ -4,19 +4,18 @@ import React from "react"
 import NavBtn from "./navBtn"
 
 const Header = ({ siteTitle }) => (
-  <header style={{ height: `120px`, display: `flex` }}>
+  <header style={{ height: `100px`, display: `flex` }}>
     <div
       style={{
-        margin: `0 0 0 100px`,
-        padding: `1.45rem 0 0 0`,
+        margin: `auto`,
       }}
     >
-      <h1 style={{ margin: 0 }}>
+      <h1 style={{ margin: 0, width: `400px` }}>
         <Link
           to="/"
           style={{
             textDecoration: `none`,
-            color: `#7EC1F2`,
+            color: `#606060`,
           }}
         >
           {siteTitle}
@@ -26,10 +25,9 @@ const Header = ({ siteTitle }) => (
     <div
       style={{
         display: `flex`,
-        alignItems: `flex-end`,
+        alignItems: `center`,
         justifyContent: `flex-end`,
-        width: `calc(100% - 400px)`,
-        padding: `10px 0`,
+        width: `calc(100% - 500px)`,
       }}
     >
       <NavBtn btnName="About" />

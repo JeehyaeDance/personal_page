@@ -1,4 +1,5 @@
 import React from "react"
+import styles from "./index.module.css"
 
 import Layout from "../components/layout"
 import ProfileImg from "../components/profileImg"
@@ -11,51 +12,32 @@ import TwitterIcon from "../components/icons/Twitter"
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
-    <div
-      style={{
-        display: `flex`,
-        margin: `1.45rem 100px`,
-        justifyContent: `space-between`,
-        alignItems: `center`,
-      }}
-    >
-      <div style={{ width: `200px` }}>
+    <div className={styles.aboutPage}>
+      <div className={styles.leftPage}>
         <ProfileImg />
-        <div
-          style={{
-            display: `flex`,
-            justifyContent: `space-evenly`,
-            marginTop: `10px`,
-          }}
-        >
-          <a href="https://github.com/JeehyaeDance">
-            <GithubIcon />
+        <div className={styles.iconGroup}>
+          <a className={styles.snsTag} href="https://github.com/JeehyaeDance">
+            <GithubIcon /> github
           </a>
-          <a href="https://www.linkedin.com/in/jeehyaeDance/">
-            <LinkedinIcon />
+          <a
+            className={styles.snsTag}
+            href="https://www.linkedin.com/in/jeehyaeDance/"
+          >
+            <LinkedinIcon /> linkedin
           </a>
-          <a href="https://www.instagram.com/jinajelly1004/">
-            <InstaIcon />
+          <a
+            className={styles.snsTag}
+            href="https://www.instagram.com/jinajelly1004/"
+          >
+            <InstaIcon /> instagram
           </a>
-          <a href="https://twitter.com/jinajeehye">
-            <TwitterIcon />
+          <a className={styles.snsTag} href="https://twitter.com/jinajeehye">
+            <TwitterIcon /> twitter
           </a>
         </div>
       </div>
-      <div
-        style={{
-          width: `800px`,
-          height: `400px`,
-          padding: `35px`,
-          border: `1px solid #0B90F0`,
-        }}
-      >
-        <h2>
-          안녕하세요{" "}
-          <span role="img" aria-label="waving">
-            👋🏼
-          </span>
-        </h2>
+      <div className={styles.aboutMe}>
+        <h2>안녕하세요</h2>
         <p>
           My name is Jeehyae Dance. I am a full-stack software engineer who
           wants to develop innovative technology and I am passionate about

@@ -1,0 +1,32 @@
+.about-page {
+  display: flex;
+  justify-content: space-between;
+  margin: 1.45rem 100px;
+  align-items: center;
+}
+
+.icon-group {
+  height: 150px;
+  margin: 20px 0 0 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 10px;
+  text-decoration: none;
+  color: #698474;
+}
+
+.sns-tag {
+  text-decoration: none;
+  color: #698474;
+}
+
+.about-me {
+  width: 800px;
+  height: 400px;
+  padding: 35px;
+}
+
+.left-page {
+  width: 250px;
+}
