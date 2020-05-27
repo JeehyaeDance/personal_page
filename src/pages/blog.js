@@ -7,7 +7,10 @@ const Blog = () => (
   <Layout>
     <SEO title="blog" />
     <h1 style={{ textAlign: "center", marginTop: "150px", fontSize: "100px" }}>
-      Coming Soon!🤟🏼
+      Coming Soon!
+      <span role="img" aria-label="hi">
+        🤟🏼
+      </span>
     </h1>
   </Layout>
 )

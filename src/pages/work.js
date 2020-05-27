@@ -11,8 +11,8 @@ const Work = () => (
     <SEO title="Work" />
     <div className={styles.workPage}>
       <div className={styles.workList}>
-        {projectList.map(project => {
-          return <Project project={project} />
+        {projectList.map((project, index) => {
+          return <Project project={project} key={index} />
         })}
       </div>
     </div>

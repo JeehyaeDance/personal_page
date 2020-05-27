@@ -37,15 +37,14 @@ const IndexPage = () => (
         </div>
       </div>
       <div className={styles.aboutMe}>
-        <h2>안녕하세요</h2>
+        <h2>안녕하세요! Hi, I'm Jeehyae!</h2>
         <p>
-          My name is Jeehyae Dance. I am a full-stack software engineer who
-          wants to develop innovative technology and I am passionate about
-          improving human expriences. Up until now, I have been working in
-          industries like hospitality and education where I can help make an
-          impact on other people’s lives. As I was exposed to the software
-          engineering field, I realized how my passion to make an impact can be
-          explored even further.{" "}
+          I am a full-stack software engineer who wants to develop innovative
+          technology and I am passionate about improving human expriences. Up
+          until now, I have been working in industries like hospitality and
+          education where I can help make an impact on other people’s lives. As
+          I was exposed to the software engineering field, I realized how my
+          passion to make an impact can be explored even further.{" "}
         </p>
         <p>
           On a personal note, I currently live in Seattle with my wonderful
