@@ -3,7 +3,7 @@ import React from "react"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import ResumeImg from "../components/resumeImg"
-import Pdf from "../documents/Jeehyae Dance Resume.pdf"
+import Pdf from "../documents/Jeehyae Resume.pdf"
 import styles from "./resume.module.css"
 
 const Resume = () => (
