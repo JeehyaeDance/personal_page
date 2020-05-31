@@ -15,7 +15,7 @@ const projectList = [
     demoImg: climbingDemo,
     demoAlt: "climbing day demo image",
     githubLink: "https://github.com/JeehyaeDance/rock-climbing-journal",
-    appLink: "https://climbingday.com",
+    appLink: "https://www.climbingday.com",
     appLinkForPage: "climbingday.com",
     appIntro: `Climbing Day is a rock climbing journal
      that allows users to log their rock climbing activity and track
