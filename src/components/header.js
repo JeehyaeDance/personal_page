@@ -2,16 +2,11 @@ import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
 import NavBtn from "./navBtn"
+import styles from "./header.module.css"
 
 const Header = ({ siteTitle }) => (
-  <header
-    style={{
-      height: `15vh`,
-      display: `flex`,
-      flexWrap: "wrap",
-    }}
-  >
-    <h1 style={{ margin: "2vw", width: "50vw", fontSize: "5vw" }}>
+  <header className={styles.header}>
+    <h1 className={styles.headerTitle}>
       <Link
         to="/"
         style={{
@@ -22,14 +17,7 @@ const Header = ({ siteTitle }) => (
         {siteTitle}
       </Link>
     </h1>
-    <div
-      style={{
-        display: `flex`,
-        alignItems: `center`,
-        justifyContent: `flex-end`,
-        width: `40vw`,
-      }}
-    >
+    <div className={styles.headerNavbar}>
       <NavBtn btnName="About" />
       <NavBtn btnName="Resume" />
       <NavBtn btnName="Work" />

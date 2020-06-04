@@ -1,5 +1,13 @@
 .resume-page {
-  margin: 1.45rem 10vw;
+  margin: 1.45rem 200px;
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (max-width: 800px) {
+  .resume-page {
+    margin: 0 1rem;
+  }
 }
 
 .resume-link {

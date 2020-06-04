@@ -5,14 +5,22 @@
   margin-bottom: 30px;
 }
 
+@media screen and (max-width: 800px) {
+  .work {
+    margin-bottom: 4rem;
+  }
+}
+
 .demo {
-  max-width: 40vw;
+  width: 30vw;
+  height: 32vh;
   box-shadow: 5px 5px 8px #606060;
 }
 
 @media screen and (max-width: 800px) {
   .demo {
-    max-width: 90vw;
+    width: 90vw;
+    height: 25vh;
   }
 }
 
@@ -43,6 +51,7 @@
 .logo-group {
   display: flex;
   justify-content: space-evenly;
+  flex-wrap: wrap;
 }
 
 .app-Intro {

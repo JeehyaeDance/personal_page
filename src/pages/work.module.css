@@ -1,5 +1,11 @@
 .work-page {
-  margin: 0 50px;
+  margin: 1.45rem 50px;
+}
+
+@media screen and (max-width: 800px) {
+  .work-page {
+    margin: 0 50px;
+  }
 }
 
 .work-list {
