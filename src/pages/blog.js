@@ -6,7 +6,7 @@ import SEO from "../components/seo"
 const Blog = () => (
   <Layout>
     <SEO title="blog" />
-    <h1 style={{ textAlign: "center", marginTop: "150px", fontSize: "100px" }}>
+    <h1 style={{ textAlign: "center", marginTop: "150px", fontSize: "5rem" }}>
       Coming Soon!
       <span role="img" aria-label="hi">
         🤟🏼

@@ -3,6 +3,7 @@
   max-width: 1150px;
   justify-content: space-between;
   margin: 0 auto;
+  flex-wrap: wrap;
 }
 
 .icon-group {
@@ -28,4 +29,5 @@
 
 .left-page {
   width: 250px;
+  margin: 0 auto;
 }

@@ -19,7 +19,9 @@ const Resume = () => (
           RESUME
         </a>
       </h4>
-      <ResumeImg />
+      <div className={styles.resumeImg}>
+        <ResumeImg />
+      </div>
     </div>
   </Layout>
 )

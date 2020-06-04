@@ -1,5 +1,5 @@
 .resume-page {
-  margin: 1.45rem 100px;
+  margin: 1.45rem 10vw;
 }
 
 .resume-link {
@@ -9,4 +9,8 @@
 
 .resume-link:hover {
   color: #ffaaa5;
+}
+
+.resume-img {
+  max-width: 1000px;
 }

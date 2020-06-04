@@ -4,30 +4,30 @@ import React from "react"
 import NavBtn from "./navBtn"
 
 const Header = ({ siteTitle }) => (
-  <header style={{ height: `100px`, display: `flex` }}>
-    <div
-      style={{
-        margin: `auto`,
-      }}
-    >
-      <h1 style={{ margin: 0, width: `400px` }}>
-        <Link
-          to="/"
-          style={{
-            textDecoration: `none`,
-            color: `#606060`,
-          }}
-        >
-          {siteTitle}
-        </Link>
-      </h1>
-    </div>
+  <header
+    style={{
+      height: `15vh`,
+      display: `flex`,
+      flexWrap: "wrap",
+    }}
+  >
+    <h1 style={{ margin: "2vw", width: "50vw", fontSize: "5vw" }}>
+      <Link
+        to="/"
+        style={{
+          textDecoration: `none`,
+          color: `#606060`,
+        }}
+      >
+        {siteTitle}
+      </Link>
+    </h1>
     <div
       style={{
         display: `flex`,
         alignItems: `center`,
         justifyContent: `flex-end`,
-        width: `calc(100% - 500px)`,
+        width: `40vw`,
       }}
     >
       <NavBtn btnName="About" />
