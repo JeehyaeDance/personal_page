@@ -1,12 +1,12 @@
 import React from "react"
 import { Link } from "gatsby"
-import styles from "./navBtn.module.css"
+import { navbar } from "./css/navBtn.module.css"
 
 const navBtn = props => (
   <div>
     <Link
       to={props.btnName === "About" ? "/" : `/${props.btnName.toLowerCase()}/`}
-      className={styles.navbar}
+      className={navbar}
       activeStyle={{ borderBottom: `2px solid #ffaaa5` }}
     >
       {props.btnName}

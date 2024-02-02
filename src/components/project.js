@@ -1,25 +1,34 @@
 import React from "react"
-import styles from "./project.module.css"
+import {
+  work,
+  demo,
+  workSpec,
+  workTitle,
+  linkGroup,
+  link,
+  appIntro,
+  logoGroup,
+} from "./css/project.module.css"
 
 const Project = props => (
-  <div className={styles.work}>
+  <div className={work}>
     <img
-      className={styles.demo}
+      className={demo}
       src={props.project.demoImg}
       alt={props.project.demoAlt}
     />
-    <div className={styles.workSpec}>
-      <h3 className={styles.workTitle}>{props.project.projectName}</h3>
-      <div className={styles.linkGroup}>
-        <a className={styles.link} href={props.project.githubLink}>
+    <div className={workSpec}>
+      <h3 className={workTitle}>{props.project.projectName}</h3>
+      <div className={linkGroup}>
+        <a className={link} href={props.project.githubLink}>
           Github
         </a>
-        <a className={styles.link} href={props.project.appLink}>
+        <a className={link} href={props.project.appLink}>
           {props.project.appLinkForPage}
         </a>
       </div>
-      <p className={styles.appIntro}>{props.project.appIntro}</p>
-      <div className={styles.logoGroup}>
+      <p className={appIntro}>{props.project.appIntro}</p>
+      <div className={logoGroup}>
         {props.project.stackLogos.map(logo => {
           return logo
         })}

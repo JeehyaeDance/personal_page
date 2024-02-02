@@ -2,11 +2,11 @@ import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
 import NavBtn from "./navBtn"
-import styles from "./header.module.css"
+import { header, headerTitle, headerNavbar } from "./css/header.module.css"
 
 const Header = ({ siteTitle }) => (
-  <header className={styles.header}>
-    <h1 className={styles.headerTitle}>
+  <header className={header}>
+    <h1 className={headerTitle}>
       <Link
         to="/"
         style={{
@@ -17,11 +17,10 @@ const Header = ({ siteTitle }) => (
         {siteTitle}
       </Link>
     </h1>
-    <div className={styles.headerNavbar}>
+    <div className={headerNavbar}>
       <NavBtn btnName="About" />
       <NavBtn btnName="Resume" />
       <NavBtn btnName="Work" />
-      <NavBtn btnName="Blog" />
     </div>
   </header>
 )

@@ -4,22 +4,22 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import ResumeImg from "../components/resumeImg"
 import Pdf from "../documents/Jeehyae Resume.pdf"
-import styles from "./resume.module.css"
+import { resumeImg, resumeLink, resumePage } from "./css/resume.module.css"
 
 const Resume = () => (
   <Layout>
     <SEO title="Resume" />
-    <div className={styles.resumePage}>
+    <div className={resumePage}>
       <h4>
         Click here to download pdf file{" "}
         <span role="img" aria-label="pointing">
           👉🏻
         </span>{" "}
-        <a href={Pdf} className={styles.resumeLink}>
+        <a href={Pdf} className={resumeLink}>
           RESUME
         </a>
       </h4>
-      <div className={styles.resumeImg}>
+      <div className={resumeImg}>
         <ResumeImg />
       </div>
     </div>

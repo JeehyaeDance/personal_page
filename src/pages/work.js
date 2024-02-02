@@ -2,7 +2,7 @@ import React from "react"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import styles from "./work.module.css"
+import styles from "./css/work.module.css"
 import projectList from "../documents/project-list"
 import Project from "../components/project"
 

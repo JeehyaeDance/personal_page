@@ -1,4 +1,4 @@
-.about-page {
+.aboutPage {
   display: flex;
   max-width: 1150px;
   justify-content: space-between;
@@ -6,7 +6,7 @@
   flex-wrap: wrap;
 }
 
-.icon-group {
+.iconGroup {
   height: 150px;
   margin: 30px 0 0 80px;
   display: flex;
@@ -16,18 +16,18 @@
   color: #698474;
 }
 
-.sns-tag {
+.snsTag {
   text-decoration: none;
   color: #698474;
 }
 
-.about-me {
+.aboutMe {
   width: 800px;
   height: 400px;
   padding: 35px;
 }
 
-.left-page {
+.leftPage {
   width: 250px;
   margin: 0 auto;
 }

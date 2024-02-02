@@ -1,5 +1,12 @@
 import React from "react"
-import styles from "./index.module.css"
+import {
+  aboutPage,
+  leftPage,
+  iconGroup,
+  snsTag,
+  aboutMe,
+} from "./css/index.module.css"
+import { StaticImage } from "gatsby-plugin-image"
 
 import Layout from "../components/layout"
 import ProfileImg from "../components/profileImg"
@@ -7,36 +14,30 @@ import SEO from "../components/seo"
 import GithubIcon from "../components/icons/Github"
 import LinkedinIcon from "../components/icons/LinkedIn"
 import InstaIcon from "../components/icons/Insta"
-import TwitterIcon from "../components/icons/Twitter"
 
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
-    <div className={styles.aboutPage}>
-      <div className={styles.leftPage}>
+    <div className={aboutPage}>
+      <div className={leftPage}>
         <ProfileImg />
-        <div className={styles.iconGroup}>
-          <a className={styles.snsTag} href="https://github.com/JeehyaeDance">
-            <GithubIcon /> github
+        <div className={iconGroup}>
+          <a className={snsTag} href="https://github.com/JeehyaeDance">
+            <StaticImage src="../images/github.svg" alt="github icon" />
+            github
           </a>
           <a
-            className={styles.snsTag}
+            className={snsTag}
             href="https://www.linkedin.com/in/jeehyaeDance/"
           >
             <LinkedinIcon /> linkedin
           </a>
-          <a
-            className={styles.snsTag}
-            href="https://www.instagram.com/jinajelly1004/"
-          >
+          <a className={snsTag} href="https://www.instagram.com/jinajelly1004/">
             <InstaIcon /> instagram
-          </a>
-          <a className={styles.snsTag} href="https://twitter.com/jinajeehye">
-            <TwitterIcon /> twitter
           </a>
         </div>
       </div>
-      <div className={styles.aboutMe}>
+      <div className={aboutMe}>
         <h2>안녕하세요! Hi, I'm Jeehyae!</h2>
         <p>
           I am a full-stack software engineer who wants to develop innovative
