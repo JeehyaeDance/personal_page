@@ -2,8 +2,6 @@ import React from "react"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import ResumeImg from "../components/resumeImg"
-import Pdf from "../documents/Jeehyae Resume.pdf"
 import { resumeImg, resumeLink, resumePage } from "./css/resume.module.css"
 
 const Resume = () => (
@@ -11,17 +9,15 @@ const Resume = () => (
     <SEO title="Resume" />
     <div className={resumePage}>
       <h4>
-        Click here to download pdf file{" "}
+        한국어 Resume 다운로드{" "}
         <span role="img" aria-label="pointing">
           👉🏻
         </span>{" "}
-        <a href={Pdf} className={resumeLink}>
-          RESUME
+        <a href="이지혜_Resume.pdf" download className={resumeLink}>
+          HERE
         </a>
       </h4>
-      <div className={resumeImg}>
-        <ResumeImg />
-      </div>
+      <div className={resumeImg}></div>
     </div>
   </Layout>
 )
