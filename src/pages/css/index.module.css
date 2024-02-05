@@ -1,0 +1,222 @@
+.pageWrapper {
+  max-width: 1150px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  padding: 20px 30px;
+}
+
+.iconGroup {
+  display: flex;
+  justify-content: space-between;
+  text-decoration: none;
+}
+
+.snsTag {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.aboutMeContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.aboutMe {
+  width: 65%;
+}
+
+.nameGroup {
+  display: flex;
+  flex-direction: column;
+}
+
+.name {
+  font-size: 36px;
+  margin-bottom: 1rem;
+  font-weight: 400;
+}
+
+.title {
+  font-weight: 300;
+  font-size: 1.5rem;
+}
+
+.contactInfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+}
+
+.introContainer {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.contact {
+  color: #698474;
+}
+
+.sectionTitle {
+  font-weight: 300;
+  font-size: 2.5rem;
+  text-align: center;
+  text-decoration: wavy underline;
+  text-underline-offset: 10px;
+  text-decoration-thickness: 1px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  width: 100%;
+  margin-bottom: 18px;
+}
+
+.sectionContainer {
+  width: 100%;
+  padding: 10px 20px;
+}
+
+.row {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.detail {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  margin-bottom: 18px;
+}
+
+.description {
+  width: 70%;
+}
+
+.orgName {
+  font-weight: 600;
+  font-size: 16px;
+  text-decoration: underline;
+}
+
+.jobTitle {
+  font-weight: 300;
+}
+
+.period {
+  font-weight: 600;
+  font-size: 16px;
+  font-family: "Fraunces", serif;
+}
+
+.subTitle {
+  font-size: 1rem;
+}
+
+.project {
+  width: 100%;
+}
+
+.education {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.resumeLink {
+  text-decoration: none;
+}
+
+.resume {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  padding: 20px 10px 10px;
+}
+
+.resumeLink:hover {
+  color: #ffaaa5;
+}
+
+.footer {
+  margin-top: 30px;
+  display: inline-block;
+  width: 100%;
+  font-size: 12px;
+  font-weight: 400;
+  text-align: center;
+}
+
+@media only screen and (max-width: 700px) {
+  .name {
+    font-size: 2rem;
+  }
+
+  .aboutMe {
+    width: 80%;
+  }
+
+  .title {
+    font-size: 1rem;
+  }
+
+  .contact {
+    font-size: 0.8rem;
+  }
+
+  .contactInfo {
+    gap: 5px;
+  }
+
+  .introContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .sectionContainer {
+    padding: 0;
+  }
+
+  .sectionTitle {
+    font-size: 24px;
+    font-weight: 400;
+  }
+
+  .aboutMeContainer {
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+  }
+
+  .row {
+    gap: 20px;
+  }
+
+  .detail {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .description {
+    width: 100%;
+  }
+
+  .project {
+    width: fit-content;
+  }
+
+  .education {
+    flex-direction: column;
+    padding-bottom: 10px;
+  }
+}

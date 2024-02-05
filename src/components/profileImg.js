@@ -16,10 +16,10 @@ import Img from "gatsby-image"
 const ProfileImg = () => {
   const data = useStaticQuery(graphql`
     query {
-      placeholderImage: file(relativePath: { eq: "Jeehyae.jpeg" }) {
+      placeholderImage: file(relativePath: { eq: "jeehyae.JPG" }) {
         childImageSharp {
-          fluid(maxWidth: 300, maxHeight: 300) {
-            ...GatsbyImageSharpFluid
+          fixed(width: 150, height: 150) {
+            ...GatsbyImageSharpFixed
           }
         }
       }
@@ -28,8 +28,8 @@ const ProfileImg = () => {
 
   return (
     <Img
-      fluid={data.placeholderImage.childImageSharp.fluid}
-      imgStyle={{ borderRadius: "128px" }}
+      fixed={data.placeholderImage.childImageSharp.fixed}
+      imgStyle={{ borderRadius: "128px", border: "1px solid #654A4E" }}
     />
   )
 }
