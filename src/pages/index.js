@@ -23,7 +23,7 @@ import InstaIcon from "../components/icons/Insta"
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Home" />
+    <SEO title="이지혜" />
     <div className={pageWrapper}>
       <div className={introContainer}>
         <div className={nameGroup}>
@@ -68,6 +68,8 @@ const IndexPage = () => (
           분야의 개발 지식과 유저를 이해하는 역량을 쌓고자 노력해 왔습니다.
         </p>
       </div>
+
+      <h3 className={sectionTitle}>Work Experience</h3>
     </div>
   </Layout>
 )

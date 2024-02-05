@@ -1,9 +1,9 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "jeehyae-personal-website",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "description": "Jeehyae's personal website",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Jeehyae Dance <jeehyae91@gmail.com>",
   "dependencies": {
     "gatsby": "^5.13.3",
     "gatsby-image": "^3.11.0",
