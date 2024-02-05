@@ -9,12 +9,10 @@
   display: flex;
   justify-content: space-between;
   text-decoration: none;
-  color: #698474;
 }
 
 .snsTag {
   text-decoration: none;
-  color: #698474;
   display: flex;
   align-items: center;
   gap: 5px;
@@ -72,6 +70,7 @@
   text-align: center;
   text-decoration: wavy underline;
   text-underline-offset: 10px;
+  text-decoration-thickness: 1px;
   padding-bottom: 10px;
   padding-top: 10px;
   width: 100%;
@@ -115,6 +114,7 @@
 .period {
   font-weight: 600;
   font-size: 16px;
+  font-family: "Fraunces", serif;
 }
 
 .subTitle {
@@ -135,11 +135,15 @@
   text-decoration: none;
 }
 
+.resume {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  padding: 20px 10px 10px;
+}
+
 .resumeLink:hover {
   color: #ffaaa5;
-}
-.resume {
-  margin-top: 30px;
 }
 
 .footer {
@@ -168,10 +172,19 @@
     font-size: 0.8rem;
   }
 
+  .contactInfo {
+    gap: 5px;
+  }
+
   .introContainer {
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 20px;
+  }
+
+  .sectionContainer {
+    padding: 0;
   }
 
   .sectionTitle {
@@ -200,5 +213,10 @@
 
   .project {
     width: fit-content;
+  }
+
+  .education {
+    flex-direction: column;
+    padding-bottom: 10px;
   }
 }

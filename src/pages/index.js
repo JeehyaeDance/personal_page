@@ -71,14 +71,15 @@ const IndexPage = () => (
       <div className={aboutMeContainer}>
         <ProfileImg />
         <p className={aboutMe}>
-          작은 규모의 팀에서 단독 개발자로 웹 앱을 기획/개발/배포하고
-          유저들로부터 긍정적인 피드백을 받은 경험이 있습니다. 또한 e-commerce의
-          제품 서치 페이지, 제품 디테일, 계정관리 페이지 구축을 담당하였습니다.
-          React 앱 컴포넌트에 Typescript를 적용하는 작업을 10명의 개발자들과 한
-          팀으로 진행하였습니다. 다양한 직무의 팀 구성원들과 유연한
-          커뮤니케이션을 하며 업무합니다. 고객/서비스 중심적인 마인드로 웹
-          접근성을 고려한 서비스를 구축하는 데 열정이 있습니다. 프론트 엔드 개발
-          분야의 개발 지식과 유저를 이해하는 역량을 쌓고자 노력해 왔습니다.
+          안녕하세요, 저는 서울에서 살고 있는 3년차 개발자입니다. 작은 규모의
+          팀에서 단독 개발자로 웹 앱을 기획/개발/배포하고 유저들로부터 긍정적인
+          피드백을 받은 경험이 있습니다. 또한 e-commerce의 제품 서치 페이지,
+          제품 디테일, 계정관리 페이지 구축을 담당하였습니다. React 앱
+          컴포넌트에 Typescript를 적용하는 작업을 10명의 개발자들과 한 팀으로
+          진행하였습니다. 다양한 직무의 팀 구성원들과 유연한 커뮤니케이션을 하며
+          업무합니다. 고객/서비스 중심적인 마인드로 웹 접근성을 고려한 서비스를
+          구축하는 데 열정이 있습니다. 프론트 엔드 개발 분야의 개발 지식과
+          유저를 이해하는 역량을 쌓고자 노력해 왔습니다.
         </p>
       </div>
 
@@ -168,7 +169,11 @@ const IndexPage = () => (
       <div className={sectionContainer}>
         <div className={row}>
           <div className={project}>
-            <h4 className={orgName}>Nuka-Carousel</h4>
+            <h4 className={orgName}>
+              <a href="https://github.com/FormidableLabs/nuka-carousel/pull/981">
+                Nuka-Carousel
+              </a>
+            </h4>
             <span className={jobTitle}>Open Source React Component</span>
           </div>
           <div className={description}>
@@ -213,15 +218,26 @@ const IndexPage = () => (
         </div>
       </div>
 
-      <span className={resume}>
-        한국어 Resume 다운로드{" "}
-        <span role="img" aria-label="pointing">
-          👉🏻
-        </span>{" "}
-        <a href="이지혜_Resume.pdf" download className={resumeLink}>
-          HERE
-        </a>
-      </span>
+      <div className={resume}>
+        <span>
+          이력서 다운로드{" "}
+          <span role="img" aria-label="pointing">
+            👉🏻
+          </span>{" "}
+          <a href="이지혜_Resume.pdf" download className={resumeLink}>
+            CLICK HERE
+          </a>
+        </span>
+        <span>
+          Resume in English Download{" "}
+          <span role="img" aria-label="pointing">
+            👉🏻
+          </span>{" "}
+          <a href="Jeehyae Lee Resume.pdf" download className={resumeLink}>
+            CLICK HERE
+          </a>
+        </span>
+      </div>
 
       <span className={footer}>Made with &hearts; by Jeehyae Dance</span>
     </div>

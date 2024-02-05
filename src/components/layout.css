@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,400;9..144,500&display=swap");
-
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+3&display=swap");
 /*
   1. Use a more-intuitive box-sizing model.
 */
@@ -13,6 +13,7 @@
 */
 * {
   margin: 0;
+  color: #654a4e;
 }
 /*
   Typographic tweaks!
@@ -22,7 +23,6 @@
 body {
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
-  color: #654a4e;
 }
 /*
   5. Improve media defaults
@@ -71,4 +71,11 @@ h4,
 h5,
 h6 {
   font-family: "Fraunces", serif;
+  color: #654a4e;
+}
+
+p,
+li,
+span {
+  font-family: "Source Sans 3", sans-serif;
 }
